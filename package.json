@@ -1,0 +1,44 @@
+{
+  "name": "dk-react-testing-component",
+  "version": "0.0.1",
+  "repository": "https://github.com/DaksonC/dk-react-testing-component.git",
+  "author": "Dakson Cruz <daksonc@gmail.com>",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "react-dependency-scripts start",
+    "build": "react-dependency-scripts build",
+    "build:app": "react-dependency-scripts build-app",
+    "test": "react-dependency-scripts test"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "react": "^16.13.0",
+    "react-dependency-scripts": "^1.0.6",
+    "react-dom": "^16.13.0",
+    "typescript": "^4.9.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "framer-motion": "^9.0.4"
+  }
+}
