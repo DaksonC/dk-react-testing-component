@@ -1,1 +1,1 @@
-export { default } from './Lib';
+export { ComponentButton } from './ComponentButton';
