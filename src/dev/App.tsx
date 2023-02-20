@@ -1,12 +1,14 @@
 import * as React from 'react';
-import { ComponentButton } from '../lib';
+import { Button } from '../stories';
 
 const App = () => (
   <div className="content">
     <h1 className="title">Testing React Component</h1>
-    <ComponentButton onClick={() => alert('Deu bommm! 😁')}>
-      My Library Button
-    </ComponentButton>
+    <Button
+      onClick={() => alert('Deu bommm! 😁')}
+      label={'Testing'}
+      primary
+    />
   </div>
 );
 
