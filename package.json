@@ -1,6 +1,6 @@
 {
-  "name": "dk-react-testing-component",
-  "version": "0.0.1",
+  "name": "sidelib-testing-react-component",
+  "version": "0.0.3",
   "repository": "https://github.com/DaksonC/dk-react-testing-component.git",
   "author": "Dakson Cruz <daksonc@gmail.com>",
   "main": "dist/index.js",
@@ -12,8 +12,6 @@
   "scripts": {
     "start": "react-dependency-scripts start",
     "build": "tsc -p .",
-    "build:app": "react-dependency-scripts build-app",
-    "test": "react-dependency-scripts test",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
