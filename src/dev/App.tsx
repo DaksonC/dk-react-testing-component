@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button } from '../stories';
+import { Button } from '../components';
 
 const App = () => (
   <div className="content">

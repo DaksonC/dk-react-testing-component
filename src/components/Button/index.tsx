@@ -1,7 +1,8 @@
 import React from 'react';
-import './button.css';
 
-interface IButtonProps {
+import './styles.css';
+
+export interface IButtonProps {
   primary?: boolean;
   backgroundColor?: string;
   size?: 'small' | 'medium' | 'large';
