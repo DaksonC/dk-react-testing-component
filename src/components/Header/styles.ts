@@ -1,3 +1,10 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 .wrapper {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -30,3 +37,4 @@ button + button {
   font-size: 14px;
   margin-right: 10px;
 }
+`;

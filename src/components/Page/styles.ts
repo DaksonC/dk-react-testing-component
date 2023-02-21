@@ -1,3 +1,10 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 section {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -67,3 +74,4 @@ section .tip-wrapper svg {
 section .tip-wrapper svg path {
   fill: #1ea7fd;
 }
+`;
